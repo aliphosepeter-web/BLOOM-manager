@@ -61,6 +61,6 @@ Easily spin up entire tunneling infrastructures onto your server without touchin
 
 
 <div align="center">
-  <b>Built by visible tech  FOUNDER~.inc🦜</b><br>
+  <b>Built by BLOOM SKY NET</b><br>
   <i>"Fast configuration, Secure tunneling, Beautiful interfaces."</i>
 </div>
