@@ -37,7 +37,7 @@ fi
 
  apt install jq
  
- echo -e "${C_WHITE}⚙️ Installing VISIBLE TECH MANAGER........${C_RESET}"
+ echo -e "${C_WHITE}⚙️ Installing BLOOM SKY MANAGER........${C_RESET}"
 
 # URLs (IPv4 forced to avoid GitHub IPv6 issues)
 MENU_URL="https://raw.githubusercontent.com/aliphosepeter-web/BLOOM-manager/main/menu.sh"
@@ -48,7 +48,7 @@ SSHD_URL="https://raw.githubusercontent.com/aliphosepeter-web/BLOOM-manager/main
 wget -4 -q -O /usr/local/bin/menu "$MENU_URL"
 chmod +x /usr/local/bin/menu
 
-  echo -e "${C_YELLOW}⚙️ Applying VISIBLE TECH SSH configuration...${C_RESET}"
+  echo -e "${C_YELLOW}⚙️ Applying BLOOM SKY SSH configuration...${C_RESET}"
 
 SSHD_CONFIG="/etc/ssh/sshd_config"
 BACKUP="/etc/ssh/sshd_config.backup.$(date +%F-%H%M%S)"
@@ -56,7 +56,7 @@ BACKUP="/etc/ssh/sshd_config.backup.$(date +%F-%H%M%S)"
 # Backup current SSH config
 cp "$SSHD_CONFIG" "$BACKUP"
 
-# Download VISIBLE TECH  SSH config
+# Download BLOOM SKY  SSH config
 wget -4 -q -O "$SSHD_CONFIG" "$SSHD_URL"
 chmod 600 "$SSHD_CONFIG"
 
@@ -100,7 +100,7 @@ else
      echo -e "${C_GRAY}⚙️ SSH config applied but service was not restarted automatically.${C_RESET}"
 fi
 
-# Run VISIBLE TECH MANAGER setup
+# Run BLOOM SKY MANAGER setup
 bash /usr/local/bin/menu --install-setup
 
 if ! grep -q "/usr/local/bin/menu" /etc/profile
@@ -113,4 +113,4 @@ echo -e "${C_RED}⚙️ Installation complete!!!!!! ${C_RESET}"
 echo -e "${C_YELLOW}⚙️ Type 'menu' to start... ${C_RESET}"
 
 
-echo -e "${C_WHITE}⚙️ AUTO SCRIPT CREATED BY VISIBLE TECH co-founder .Inc🦜~WHATSAPP CONTACT +255 689 000 656${C_RESET}"
+echo -e "${C_WHITE}⚙️ AUTO SCRIPT CREATED BY BLOOM SKY co-founder .Inc🦜~WHATSAPP CONTACT +255 779 805 858${C_RESET}"
