@@ -1,7 +1,7 @@
 
 ---
 
-## ✨ Why BLOOM TECH MANAGER?
+## ✨ Why BLOOM SKY MANAGER?
 
 Visible tech Manager is built with an **obsessive focus on speed, fluidity, and aesthetics**. We took the traditional chunky script and refined it into a gorgeous, highly responsive, and relentlessly efficient terminal experience.
 
@@ -11,7 +11,7 @@ Whether you're managing 5 users or 500, deploying complex protocols, or locking 
 
 ## 🚀 Installation
 
-It takes less than a minute to deploy the complete visible tech Manager on your fresh VPS. Choose the installation method that works best for you:
+It takes less than a minute to deploy the complete bloom sky Manager on your fresh VPS. Choose the installation method that works best for you:
 
 ### Primary Method (Recommended)
 ```bash
