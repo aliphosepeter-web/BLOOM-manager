@@ -3212,7 +3212,7 @@ uninstall_falcon_proxy() {
     echo -e "${C_GREEN}🗑️ Removing binary and config files...${C_RESET}"
     rm -f "$FALCONPROXY_BINARY"
     rm -f "$FALCONPROXY_CONFIG_FILE"
-    echo -e "${C_GREEN}✅ visible proxy has been uninstalled successfully.${C_RESET}"
+    echo -e "${C_GREEN}✅ bloom proxy has been uninstalled successfully.${C_RESET}"
 }
 
 # --- ZiVPN Installation Logic ---
